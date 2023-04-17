@@ -36,6 +36,10 @@ pip install -r requirements.txt
 ```
 
 Uma vez instalados todos os pacotes acima, você pode abrir o jupyter notebook pelo prompt, usando o comando:
-'python3 -m notebook'.
+```
+'python3 -m notebook'
+```
 Em alguns sistemas, a instalação do python se chama apenas 'python' ao invés de 'python3':
+```
 'python -m notebook'
+```
