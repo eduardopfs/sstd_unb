@@ -2,7 +2,7 @@
 
 Baixar o instalador para o seu sistema operacional em https://www.python.org/downloads/.
 Recomenda-se a versão mais recente (3.11).
-O seguinte guias (em português) ensinam a instalar.
+Os seguintes guias (em português) ensinam a instalar.
 https://python.org.br/instalacao-windows/
 https://python.org.br/instalacao-mac/
 https://python.org.br/instalacao-linux/
@@ -23,16 +23,19 @@ Para o curso, recomenda-se instalar os seguintes pacotes:
 - Pillow
   - Pacote para manipular imagens.
 
-No prompt de comando, é possível instalar pacotes usando a ferramenta pip.
+No prompt de comando, é possível instalar pacotes um a um usando a ferramenta pip.
 Basta digitar `pip install <nome do pacote>` ex: `pip install numpy`.
 ```
 pip install numpy scipy notebook Pillow matplotlib
 ```
 NB: o nome do pacote Jupyter no `pip` é `notebook`.
 
-Se você estiver no diretório do projeto, pode instalar a lista a partir do arquivo `requirements.txt`.
+Alternativamente, se você estiver no diretório do projeto, pode instalar a lista a partir do arquivo `requirements.txt`, instalando todos os pacotes de uma vez.
 ```
 pip install -r requirements.txt
 ```
 
-Uma vez instalados todos os pacotes acima, abrir o jupyter notebook pelo prompt, usando o comando 'python3 -m notebook'.
+Uma vez instalados todos os pacotes acima, você pode abrir o jupyter notebook pelo prompt, usando o comando:
+'python3 -m notebook'.
+Em alguns sistemas, a instalação do python se chama apenas 'python' ao invés de 'python3':
+'python -m notebook'
